@@ -1,0 +1,74 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+#logo{
+    width: 20px;
+    margin: 0 0 30px;
+}
+
+body{
+    background: #E5E5E5;
+    width: 940px;
+}
+
+main {
+    display: flex;
+    width: 940px;
+    padding-left: 30px;
+}
+
+.div-principal{
+    margin: 0 auto;
+    padding-right: 90px;
+}
+
+::placeholder{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.alerta{
+    margin: 20px 0;
+}
+
+.botoes{
+    padding: 10%;
+}
+
+.encriptar{
+    margin: 70px 15px;
+    padding: 15px 50px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    border-color: blue;
+    cursor: pointer;
+}
+
+.Desencriptar{
+    padding: 15px 50px;
+    color: blue;
+    border-radius: 10px;
+    border-color: blue;
+    cursor: pointer;
+}
+
+.mensagem{
+    margin: 0% auto;
+}
+
+.discriptografarText{
+    padding: 8%;
+}
+
+
+.botao-copiar{
+    padding: 15px 50px;
+    color: blue;
+    border-radius: 10px;
+    border-color: blue;
+    cursor: pointer;
+
+}

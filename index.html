@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="styesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+</head>
+<body>
+        
+    <header>    
+        <img src="logo.png" alt="logo" id="logo">
+    </header>
+    <main>  
+         <section class="div-principal">  
+                <textarea cols="80" rows="15,5" placeholder="Digite seu texto" class="input-texto" name="input-text" type="text"></textarea>
+                <div class="alerta">
+                    <img src="alerta.png" alt="imagen-alerta">
+                    <label for="input-text">Apenas letras maiúsculas e sem acento</label>
+                </div>
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">Criptografar </button>
+                    <button class="Desencriptar" onclick="btnDesencriptar()"> Desencriptar</button>  
+                </div>  
+        </section> 
+
+        <section class="mensagem">
+            <div class="discriptografarText">
+                <textarea cols="34" rows="25" class="mensagemFinal" type="text" placeholder="Nenhuma mensagem"></textarea> 
+                <button class="botao-copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    
+    </main>        
+<script src="script.js"></script>
+</body>
+</html>
